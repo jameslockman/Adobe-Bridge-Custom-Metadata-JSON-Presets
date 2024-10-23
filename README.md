@@ -59,4 +59,4 @@ The namespace is ``http://www.vraweb.org/vracore/4.0/essential/`` and the prefer
 Documentation of the complete VRA Core standard can be found at [http://www.loc.gov/standards/vracore/](http://www.loc.gov/standards/vracore/)
 
 ### **[xmpRights_properties_view.json]** and **[xmpRights_properties_view_url.json]** _(for Custom Metadata Panel 2.0.2 and higher)_
-.
+This combines properties from ``http://ns.adobe.com/xap/1.0/`` and ``http://ns.adobe.com/xap/1.0/rights/``. If you use Custom Metadata Panel 2.0.2 or higher and **[xmpRights_properties_view_url.json]**, then any data entered into ``xmpRights:UsageTerms`` will be automatically mirrored in ``dc:rights``, as these two fields have been linked in the View. Additionally, ``dc:rights`` has been hidden.
