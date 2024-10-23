@@ -64,14 +64,7 @@
     "type": "Dropdown",
     "readOnly": false,
     "dependencies": [],
-    "options": [
-      "0",
-      "1",
-      "2",
-      "3",
-      "4",
-      "5"
-    ]
+    "options": ["0", "1", "2", "3", "4", "5"]
   },
   {
     "id": "dividerXMPrights",
@@ -130,6 +123,18 @@
     "type": "Text",
     "options": "",
     "readOnly": false,
+    "dependencies": [],
+    "disabled": false,
+    "syncToFile": [{ "fileFieldId": "dc:rights", "enabled": true }]
+  },
+  {
+    "id": "dc:rights",
+    "displayName": "DC Rights",
+    "prefix": "dc",
+    "namespace": "http://purl.org/dc/elements/1.1/",
+    "propertyName": "rights",
+    "type": "Hidden",
+    "disabled": false,
     "dependencies": []
   },
   {
