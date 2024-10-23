@@ -15,34 +15,34 @@
     "readOnly": false,
     "dependencies": [],
     "options": [
-		{
-		"label": "Attribution (CC BY 4.0)",
-		"value": "http://creativecommons.org/licenses/by/4.0/"
-		},
-		{
-		"label": "Attribution-ShareAlike (CC BY-SA 4.0)",
-		"value": "http://creativecommons.org/licenses/by-sa/4.0/"
-		},
-		{
-		"label": "Attribution-NoDerivatives (CC BY-ND 4.0)",
-		"value": "http://creativecommons.org/licenses/by-nd/4.0/"
-		},
-		{
-		"label": "Attribution-NonCommercial (CC BY-NC 4.0)",
-		"value": "http://creativecommons.org/licenses/by-nc/4.0/"
-		},
-		{
-		"label": "Attribution-NonCommercial-ShareAlike (CC BY-NC-SA 4.0)",
-		"value": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
-		},
-		{
-		"label": "Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND 4.0)",
-		"value": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
-		},
-		{
-		"label": "Public Domain (CC 1.0)",
-		"value": "https://creativecommons.org/publicdomain/zero/1.0/"
-		}
+      {
+        "label": "Attribution (CC BY 4.0)",
+        "value": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "label": "Attribution-ShareAlike (CC BY-SA 4.0)",
+        "value": "http://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      {
+        "label": "Attribution-NoDerivatives (CC BY-ND 4.0)",
+        "value": "http://creativecommons.org/licenses/by-nd/4.0/"
+      },
+      {
+        "label": "Attribution-NonCommercial (CC BY-NC 4.0)",
+        "value": "http://creativecommons.org/licenses/by-nc/4.0/"
+      },
+      {
+        "label": "Attribution-NonCommercial-ShareAlike (CC BY-NC-SA 4.0)",
+        "value": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+      },
+      {
+        "label": "Attribution-NonCommercial-NoDerivatives (CC BY-NC-ND 4.0)",
+        "value": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      },
+      {
+        "label": "Public Domain (CC 1.0)",
+        "value": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
     ]
   },
   {

@@ -33,7 +33,7 @@
     "prefix": "vrae",
     "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
     "propertyName": "work.date",
-    "type": "Text",
+    "type": "Date",
     "options": "",
     "readOnly": false,
     "dependencies": []
@@ -215,48 +215,84 @@
     "dependencies": []
   },
   {
-    "id": "vraeCustom1Label",
-    "displayName": "Custom 1 Label",
+    "id": "vrae:custom1",
+    "displayName": "custom1",
     "prefix": "vrae",
     "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
-    "propertyName": "custom1/vrae:label",
-    "type": "Text",
-    "options": "",
+    "propertyName": "custom1",
+    "customToolTip": "",
+    "type": "Structure",
+    "dependencies": [],
     "readOnly": false,
-    "dependencies": []
+    "arrayType": "bag",
+    "structure": {
+      "fields": [
+        {
+          "id": "vraeCustom1Label",
+          "displayName": "Label",
+          "prefix": "vrae",
+          "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
+          "propertyName": "label",
+          "type": "Text",
+          "options": "",
+          "readOnly": false,
+          "dependencies": []
+        },
+        {
+          "id": "vraeCustom1Data",
+          "displayName": "Data",
+          "prefix": "vrae",
+          "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
+          "propertyName": "data",
+          "type": "Text",
+          "options": "",
+          "readOnly": false,
+          "dependencies": []
+        }
+      ],
+      "isArray": false,
+      "shouldOverwrite": false
+    }
   },
   {
-    "id": "vraeCustom1Data",
-    "displayName": "Custom 1 Data",
+    "id": "vrae:custom2",
+    "displayName": "custom2",
     "prefix": "vrae",
     "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
-    "propertyName": "custom1/vrae:data",
-    "type": "Text",
-    "options": "",
+    "propertyName": "custom2",
+    "customToolTip": "",
+    "type": "Structure",
+    "dependencies": [],
     "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "vraeCustom2Label",
-    "displayName": "Custom 2 Label",
-    "prefix": "vrae",
-    "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
-    "propertyName": "custom2/vrae:label",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "vraeCustom2Data",
-    "displayName": "Custom 2 Data",
-    "prefix": "vrae",
-    "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
-    "propertyName": "custom2/vrae:data",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
+    "arrayType": "bag",
+    "structure": {
+      "fields": [
+        {
+          "id": "vraeCustom2Label",
+          "displayName": "Label",
+          "prefix": "vrae",
+          "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
+          "propertyName": "label",
+          "type": "Text",
+          "options": "",
+          "readOnly": false,
+          "dependencies": []
+        },
+        {
+          "id": "vraeCustom2Data",
+          "displayName": "Data",
+          "prefix": "vrae",
+          "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
+          "propertyName": "data",
+          "type": "Text",
+          "options": "",
+          "readOnly": false,
+          "dependencies": []
+        }
+      ],
+      "isArray": false,
+      "shouldOverwrite": false
+    }
   },
   {
     "id": "divider2",
@@ -384,48 +420,84 @@
     "dependencies": []
   },
   {
-    "id": "vraeCustom3Label",
-    "displayName": "Custom 3 Label",
+    "id": "vrae:custom3",
+    "displayName": "custom3",
     "prefix": "vrae",
     "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
-    "propertyName": "custom3/vrae:label",
-    "type": "Text",
-    "options": "",
+    "propertyName": "custom3",
+    "customToolTip": "",
+    "type": "Structure",
+    "dependencies": [],
     "readOnly": false,
-    "dependencies": []
+    "arrayType": "bag",
+    "structure": {
+      "fields": [
+        {
+          "id": "vraeCustom3Label",
+          "displayName": "Label",
+          "prefix": "vrae",
+          "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
+          "propertyName": "label",
+          "type": "Text",
+          "options": "",
+          "readOnly": false,
+          "dependencies": []
+        },
+        {
+          "id": "vraeCustom3Data",
+          "displayName": "Data",
+          "prefix": "vrae",
+          "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
+          "propertyName": "data",
+          "type": "Text",
+          "options": "",
+          "readOnly": false,
+          "dependencies": []
+        }
+      ],
+      "isArray": false,
+      "shouldOverwrite": false
+    }
   },
   {
-    "id": "vraeCustom3Data",
-    "displayName": "Custom 3 Data",
+    "id": "vrae:custom4",
+    "displayName": "custom4",
     "prefix": "vrae",
     "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
-    "propertyName": "custom3/vrae:data",
-    "type": "Text",
-    "options": "",
+    "propertyName": "custom4",
+    "customToolTip": "",
+    "type": "Structure",
+    "dependencies": [],
     "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "vraeCustom4Label",
-    "displayName": "Custom 4 Label",
-    "prefix": "vrae",
-    "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
-    "propertyName": "custom4/vrae:label",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "vraeCustom4Data",
-    "displayName": "Custom 4 Data",
-    "prefix": "vrae",
-    "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
-    "propertyName": "custom4/vrae:data",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
+    "arrayType": "bag",
+    "structure": {
+      "fields": [
+        {
+          "id": "vraeCustom4Label",
+          "displayName": "Label",
+          "prefix": "vrae",
+          "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
+          "propertyName": "label",
+          "type": "Text",
+          "options": "",
+          "readOnly": false,
+          "dependencies": []
+        },
+        {
+          "id": "vraeCustom4Data",
+          "displayName": "Data",
+          "prefix": "vrae",
+          "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
+          "propertyName": "data",
+          "type": "Text",
+          "options": "",
+          "readOnly": false,
+          "dependencies": []
+        }
+      ],
+      "isArray": false,
+      "shouldOverwrite": false
+    }
   },
   {
     "id": "divider3",
@@ -455,47 +527,83 @@
     "dependencies": []
   },
   {
-    "id": "vraeCustom5Label",
-    "displayName": "Custom 5 Label",
+    "id": "vrae:custom5",
+    "displayName": "custom5",
     "prefix": "vrae",
     "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
-    "propertyName": "custom5/vrae:label",
-    "type": "Text",
-    "options": "",
+    "propertyName": "custom5",
+    "customToolTip": "",
+    "type": "Structure",
+    "dependencies": [],
     "readOnly": false,
-    "dependencies": []
+    "arrayType": "bag",
+    "structure": {
+      "fields": [
+        {
+          "id": "vraeCustom5Label",
+          "displayName": "Label",
+          "prefix": "vrae",
+          "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
+          "propertyName": "label",
+          "type": "Text",
+          "options": "",
+          "readOnly": false,
+          "dependencies": []
+        },
+        {
+          "id": "vraeCustom5Data",
+          "displayName": "Data",
+          "prefix": "vrae",
+          "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
+          "propertyName": "data",
+          "type": "Text",
+          "options": "",
+          "readOnly": false,
+          "dependencies": []
+        }
+      ],
+      "isArray": false,
+      "shouldOverwrite": false
+    }
   },
   {
-    "id": "vraeCustom5Data",
-    "displayName": "Custom 5 Data",
+    "id": "vrae:custom6",
+    "displayName": "custom6",
     "prefix": "vrae",
     "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
-    "propertyName": "custom5/vrae:data",
-    "type": "Text",
-    "options": "",
+    "propertyName": "custom6",
+    "customToolTip": "",
+    "type": "Structure",
+    "dependencies": [],
     "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "vraeCustom6Label",
-    "displayName": "Custom 6 Label",
-    "prefix": "vrae",
-    "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
-    "propertyName": "custom6/vrae:label",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "vraeCustom6Data",
-    "displayName": "Custom 6 Data",
-    "prefix": "vrae",
-    "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
-    "propertyName": "custom6/vrae:data",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
+    "arrayType": "bag",
+    "structure": {
+      "fields": [
+        {
+          "id": "vraeCustom6Label",
+          "displayName": "Label",
+          "prefix": "vrae",
+          "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
+          "propertyName": "label",
+          "type": "Text",
+          "options": "",
+          "readOnly": false,
+          "dependencies": []
+        },
+        {
+          "id": "vraeCustom6Data",
+          "displayName": "Data",
+          "prefix": "vrae",
+          "namespace": "http://www.vraweb.org/vracore/4.0/essential/",
+          "propertyName": "data",
+          "type": "Text",
+          "options": "",
+          "readOnly": false,
+          "dependencies": []
+        }
+      ],
+      "isArray": false,
+      "shouldOverwrite": false
+    }
   }
 ]
