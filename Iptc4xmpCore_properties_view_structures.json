@@ -1,552 +1,144 @@
 [
   {
-    "id": "dividerDublinCore",
-    "displayName": "Dublin Core Namespace",
-    "type": "Divider",
-    "dependencies": []
-  },
-  {
-    "id": "dc:contributor",
-    "displayName": "Contributor",
-    "prefix": "dc",
-    "namespace": "http://purl.org/dc/elements/1.1/",
-    "propertyName": "contributor",
-    "type": "MultiText",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "dc:coverage",
-    "displayName": "Coverage",
-    "namespace": "http://purl.org/dc/elements/1.1/",
-    "prefix": "dc",
-    "propertyName": "coverage",
-    "type": "Text",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "dc:creator",
-    "displayName": "Creator",
-    "prefix": "dc",
-    "namespace": "http://purl.org/dc/elements/1.1/",
-    "propertyName": "creator",
-    "type": "MultiText",
-    "readOnly": false,
-    "dependencies": [],
-    "arrayType": "seq"
-  },
-  {
-    "id": "dc:date",
-    "displayName": "Date",
-    "prefix": "dc",
-    "namespace": "http://purl.org/dc/elements/1.1/",
-    "propertyName": "date",
-    "type": "MultiText",
-    "readOnly": false,
-    "dependencies": [],
-    "arrayType": "seq"
-  },
-  {
-    "id": "dc:description",
-    "displayName": "Description",
-    "namespace": "http://purl.org/dc/elements/1.1/",
-    "prefix": "dc",
-    "propertyName": "description",
-    "type": "Text",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "dc:format",
-    "displayName": "Format",
-    "namespace": "http://purl.org/dc/elements/1.1/",
-    "prefix": "dc",
-    "propertyName": "format",
-    "type": "Text",
-    "readOnly": true,
-    "dependencies": []
-  },
-  {
-    "id": "dc:identifier",
-    "displayName": "Identifier",
-    "namespace": "http://purl.org/dc/elements/1.1/",
-    "prefix": "dc",
-    "propertyName": "identifier",
-    "type": "Text",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "dc:language",
-    "displayName": "Language",
-    "prefix": "dc",
-    "namespace": "http://purl.org/dc/elements/1.1/",
-    "propertyName": "language",
-    "type": "MultiText",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "dc:publisher",
-    "displayName": "Publisher",
-    "prefix": "dc",
-    "namespace": "http://purl.org/dc/elements/1.1/",
-    "propertyName": "publisher",
-    "type": "MultiText",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "dc:relation",
-    "displayName": "Relation",
-    "prefix": "dc",
-    "namespace": "http://purl.org/dc/elements/1.1/",
-    "propertyName": "relation",
-    "type": "MultiText",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "dc:rights",
-    "displayName": "Copyright Notice",
-    "prefix": "dc",
-    "namespace": "http://purl.org/dc/elements/1.1/",
-    "propertyName": "rights",
-    "type": "Text",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "dc:source",
-    "displayName": "Source",
-    "prefix": "dc",
-    "namespace": "http://purl.org/dc/elements/1.1/",
-    "propertyName": "source",
-    "type": "Text",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "dc:subject",
-    "displayName": "Subject",
-    "prefix": "dc",
-    "namespace": "http://purl.org/dc/elements/1.1/",
-    "propertyName": "subject",
-    "type": "MultiText",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "dc:title",
-    "displayName": "Title",
-    "namespace": "http://purl.org/dc/elements/1.1/",
-    "prefix": "dc",
-    "propertyName": "title",
-    "type": "Text",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "dc:type",
-    "displayName": "Type",
-    "prefix": "dc",
-    "namespace": "http://purl.org/dc/elements/1.1/",
-    "propertyName": "type",
-    "type": "MultiText",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "dividerPhotoshop",
-    "displayName": "Photoshop Namespace",
-    "type": "Divider",
-    "dependencies": []
-  },
-  {
-    "id": "photoshop:AuthorsPosition",
-    "displayName": "Creator: Job Title",
-    "prefix": "photoshop",
-    "namespace": "http://ns.adobe.com/photoshop/1.0/",
-    "propertyName": "AuthorsPosition",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "photoshop:CaptionWriter",
-    "displayName": "Description Writer",
-    "prefix": "photoshop",
-    "namespace": "http://ns.adobe.com/photoshop/1.0/",
-    "propertyName": "CaptionWriter",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "photoshop:Category",
-    "displayName": "Category",
-    "prefix": "photoshop",
-    "namespace": "http://ns.adobe.com/photoshop/1.0/",
-    "propertyName": "Category",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "photoshop:City",
-    "displayName": "City",
-    "prefix": "photoshop",
-    "namespace": "http://ns.adobe.com/photoshop/1.0/",
-    "propertyName": "City",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "photoshop:State",
-    "displayName": "Province or State",
-    "prefix": "photoshop",
-    "namespace": "http://ns.adobe.com/photoshop/1.0/",
-    "propertyName": "State",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "photoshop:Country",
-    "displayName": "Country",
-    "prefix": "photoshop",
-    "namespace": "http://ns.adobe.com/photoshop/1.0/",
-    "propertyName": "Country",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "photoshop:Credit",
-    "displayName": "Credit",
-    "prefix": "photoshop",
-    "namespace": "http://ns.adobe.com/photoshop/1.0/",
-    "propertyName": "Credit",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "photoshop:DateCreated",
-    "displayName": "Original Creation Date",
-    "prefix": "photoshop",
-    "namespace": "http://ns.adobe.com/photoshop/1.0/",
-    "propertyName": "DateCreated",
-    "type": "Date",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "photoshop:Headline",
-    "displayName": "Headline",
-    "prefix": "photoshop",
-    "namespace": "http://ns.adobe.com/photoshop/1.0/",
-    "propertyName": "Headline",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "photoshop:Instructions",
-    "displayName": "Instructions",
-    "prefix": "photoshop",
-    "namespace": "http://ns.adobe.com/photoshop/1.0/",
-    "propertyName": "Instructions",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "photoshop:Source",
-    "displayName": "Source",
-    "prefix": "photoshop",
-    "namespace": "http://ns.adobe.com/photoshop/1.0/",
-    "propertyName": "Source",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "photoshop:SupplementalCategories",
-    "displayName": "Supplemental Categories",
-    "prefix": "photoshop",
-    "namespace": "http://ns.adobe.com/photoshop/1.0/",
-    "propertyName": "SupplementalCategories",
-    "type": "MultiText",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "photoshop:TransmissionReference",
-    "displayName": "Transmission Reference",
-    "prefix": "photoshop",
-    "namespace": "http://ns.adobe.com/photoshop/1.0/",
-    "propertyName": "TransmissionReference",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "photoshop:Urgency",
-    "displayName": "Urgency",
-    "prefix": "photoshop",
-    "namespace": "http://ns.adobe.com/photoshop/1.0/",
-    "propertyName": "Urgency",
-    "type": "Dropdown",
-    "options": ["0", "1", "2", "3", "4", "5", "6", "7", "8"],
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "dividerXMP",
-    "displayName": "XMP Namespace",
-    "type": "Divider",
-    "dependencies": []
-  },
-  {
-    "id": "xmp:Identifier",
-    "displayName": "Identifier",
-    "namespace": "http://ns.adobe.com/xap/1.0/",
-    "prefix": "xmp",
-    "propertyName": "Identifier",
-    "type": "MultiText",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "xmp:Label",
-    "displayName": "Label",
-    "namespace": "http://ns.adobe.com/xap/1.0/",
-    "prefix": "xmp",
-    "propertyName": "Label",
-    "type": "Text",
-    "readOnly": true,
-    "dependencies": []
-  },
-  {
-    "id": "xmp:MetadataDate",
-    "displayName": "Metadata Date",
-    "namespace": "http://ns.adobe.com/xap/1.0/",
-    "prefix": "xmp",
-    "propertyName": "MetadataDate",
-    "type": "Date",
-    "readOnly": true,
-    "dependencies": []
-  },
-  {
-    "id": "xmp:ModifyDate",
-    "displayName": "Modify Date",
-    "namespace": "http://ns.adobe.com/xap/1.0/",
-    "prefix": "xmp",
-    "propertyName": "ModifyDate",
-    "type": "Date",
-    "readOnly": true,
-    "dependencies": []
-  },
-  {
-    "id": "xmp:Nickname",
-    "displayName": "Nickname",
-    "namespace": "http://ns.adobe.com/xap/1.0/",
-    "prefix": "xmp",
-    "propertyName": "Nickname",
-    "type": "Text",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "xmp:Rating",
-    "displayName": "Rating",
-    "namespace": "http://ns.adobe.com/xap/1.0/",
-    "prefix": "xmp",
-    "propertyName": "Rating",
-    "type": "Dropdown",
-    "readOnly": false,
-    "dependencies": [],
-    "options": ["0", "1", "2", "3", "4", "5"]
-  },
-  {
-    "id": "dividerXMPrights",
-    "displayName": "XMP Rights Namespace",
-    "type": "Divider",
-    "dependencies": []
-  },
-  {
-    "id": "xmpRights:Certificate",
-    "displayName": "Rights Certificate URL",
-    "prefix": "xmpRights",
-    "namespace": "http://ns.adobe.com/xap/1.0/rights/",
-    "propertyName": "Certificate",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "xmpRights:Marked",
-    "displayName": "Rights Marked",
-    "prefix": "xmpRights",
-    "namespace": "http://ns.adobe.com/xap/1.0/rights/",
-    "propertyName": "Marked",
-    "type": "Dropdown",
-    "options": [
-      {
-        "label": "Copyrighted",
-        "value": "True"
-      },
-      {
-        "label": "Public Domain",
-        "value": "False"
-      }
-    ],
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "xmpRights:Owner",
-    "displayName": "Rights Owner",
-    "prefix": "xmpRights",
-    "namespace": "http://ns.adobe.com/xap/1.0/rights/",
-    "propertyName": "Owner",
-    "type": "MultiText",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "xmpRights:UsageTerms",
-    "displayName": "Rights Usage Terms",
-    "prefix": "xmpRights",
-    "namespace": "http://ns.adobe.com/xap/1.0/rights/",
-    "propertyName": "UsageTerms",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "xmpRights:WebStatement",
-    "displayName": "Rights Web Statement",
-    "prefix": "xmpRights",
-    "namespace": "http://ns.adobe.com/xap/1.0/rights/",
-    "propertyName": "WebStatement",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
     "id": "dividerIPTCcore",
     "displayName": "IPTC Core Namespace",
     "type": "Divider",
     "dependencies": []
   },
   {
-    "id": "Iptc4xmpCore:CiAdrExtadr",
-    "displayName": "Creator: Address",
+    "id": "h95yxKJuIc",
+    "displayName": "Creator Contact Info",
     "prefix": "Iptc4xmpCore",
     "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
-    "propertyName": "CreatorContactInfo/Iptc4xmpCore:CiAdrExtadr",
-    "type": "Text",
-    "options": "",
+    "propertyName": "CreatorContactInfo",
+    "customToolTip": "",
+    "type": "Structure",
+    "dependencies": [],
     "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "Iptc4xmpCore:CiAdrCity",
-    "displayName": "Creator: City",
-    "prefix": "Iptc4xmpCore",
-    "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
-    "propertyName": "CreatorContactInfo/Iptc4xmpCore:CiAdrCity",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "Iptc4xmpCore:CiAdrRegion",
-    "displayName": "Creator: State/Provice",
-    "prefix": "Iptc4xmpCore",
-    "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
-    "propertyName": "CreatorContactInfo/Iptc4xmpCore:CiAdrRegion",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "Iptc4xmpCore:CiAdrCtry",
-    "displayName": "Creator: Country",
-    "prefix": "Iptc4xmpCore",
-    "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
-    "propertyName": "CreatorContactInfo/Iptc4xmpCore:CiAdrCtry",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "Iptc4xmpCore:CiAdrPcode",
-    "displayName": "Creator: Postal Code",
-    "prefix": "Iptc4xmpCore",
-    "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
-    "propertyName": "CreatorContactInfo/Iptc4xmpCore:CiAdrPcode",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "Iptc4xmpCore:CiEmailWork",
-    "displayName": "Creator: Email address(es)",
-    "prefix": "Iptc4xmpCore",
-    "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
-    "propertyName": "CreatorContactInfo/Iptc4xmpCore:CiEmailWork",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "Iptc4xmpCore:CiTelWork",
-    "displayName": "Creator: Phone number(s)",
-    "prefix": "Iptc4xmpCore",
-    "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
-    "propertyName": "CreatorContactInfo/Iptc4xmpCore:CiTelWork",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
-  },
-  {
-    "id": "Iptc4xmpCore:CiUrlWork",
-    "displayName": "Creator: Web URL(s)",
-    "prefix": "Iptc4xmpCore",
-    "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
-    "propertyName": "CreatorContactInfo/Iptc4xmpCore:CiUrlWork",
-    "type": "Text",
-    "options": "",
-    "readOnly": false,
-    "dependencies": []
+    "arrayType": "bag",
+    "structure": {
+      "fields": [
+        {
+          "id": "Iptc4xmpCore:CiAdrExtadr",
+          "displayName": "Address",
+          "prefix": "Iptc4xmpCore",
+          "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+          "propertyName": "CiAdrExtadr",
+          "type": "Text",
+          "dependencies": "",
+          "linkToFile": {},
+          "readOnly": false,
+          "multiLine": false,
+          "altLang": [],
+          "altLangDefault": "",
+          "altLangEnabled": false
+        },
+        {
+          "id": "Iptc4xmpCore:CiAdrCity",
+          "displayName": "City",
+          "prefix": "Iptc4xmpCore",
+          "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+          "propertyName": "CiAdrCity",
+          "type": "Text",
+          "dependencies": "",
+          "linkToFile": {},
+          "readOnly": false,
+          "multiLine": false,
+          "altLang": [],
+          "altLangDefault": "",
+          "altLangEnabled": false
+        },
+        {
+          "id": "Iptc4xmpCore:CiAdrRegion",
+          "displayName": "State/Province",
+          "prefix": "Iptc4xmpCore",
+          "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+          "propertyName": "CiAdrRegion",
+          "type": "Text",
+          "dependencies": "",
+          "linkToFile": {},
+          "readOnly": false,
+          "multiLine": false,
+          "altLang": [],
+          "altLangDefault": "",
+          "altLangEnabled": false
+        },
+        {
+          "id": "Iptc4xmpCore:CiAdrCtry",
+          "displayName": "Country",
+          "prefix": "Iptc4xmpCore",
+          "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+          "propertyName": "CiAdrCtry",
+          "type": "Text",
+          "dependencies": "",
+          "linkToFile": {},
+          "readOnly": false,
+          "multiLine": false,
+          "altLang": ["en", "en-us", "en-au"],
+          "altLangDefault": "en",
+          "altLangEnabled": false
+        },
+        {
+          "id": "Iptc4xmpCore:CiAdrPcode",
+          "displayName": "Postal Code",
+          "prefix": "Iptc4xmpCore",
+          "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+          "propertyName": "CiAdrPcode",
+          "type": "Text",
+          "dependencies": "",
+          "linkToFile": {},
+          "readOnly": false,
+          "multiLine": false,
+          "altLang": [],
+          "altLangDefault": "",
+          "altLangEnabled": false
+        },
+        {
+          "id": "Iptc4xmpCore:CiEmailWork",
+          "displayName": "Email address(es)",
+          "prefix": "Iptc4xmpCore",
+          "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+          "propertyName": "CiEmailWork",
+          "type": "Text",
+          "dependencies": "",
+          "linkToFile": {},
+          "readOnly": false,
+          "multiLine": false,
+          "altLang": [],
+          "altLangDefault": "",
+          "altLangEnabled": false
+        },
+        {
+          "id": "Iptc4xmpCore:CiTelWork",
+          "displayName": "Phone Number(s)",
+          "prefix": "Iptc4xmpCore",
+          "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+          "propertyName": "CiTelWork",
+          "type": "Text",
+          "dependencies": "",
+          "linkToFile": {},
+          "readOnly": false,
+          "multiLine": false,
+          "altLang": [],
+          "altLangDefault": "",
+          "altLangEnabled": false
+        },
+        {
+          "id": "Iptc4xmpCore:CiUrlWork",
+          "displayName": "Web URL",
+          "prefix": "Iptc4xmpCore",
+          "namespace": "http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/",
+          "propertyName": "CiUrlWork",
+          "type": "URL",
+          "dependencies": "",
+          "readOnly": false,
+          "multiLine": false
+        }
+      ],
+      "isArray": true,
+      "shouldOverwrite": false
+    },
+    "disabled": false
   },
   {
     "id": "Scene",
